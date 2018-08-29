@@ -2,32 +2,32 @@
 字符串的几种应用实现_Java  
 Java String类  
 字符串广泛应用在Java编程中，在Java中字符串属于对象，Java提供了String类来创建和操作字符串。  
-String 方法 更多详见[Java API文档](https://docs.oracle.com/javase/8/docs/api/index.html)  
-1. char charAt(int index) 返回指定索引处的 char 值。  
-2. int compareTo(Object o) 把这个字符串和另一个对象比较。  
-3. int compareTo(String anotherString) 按字典顺序比较两个字符串。  
-4.	int compareToIgnoreCase(String str) 按字典顺序比较两个字符串，不考虑大小写。  
-5.	String concat(String str) 将指定字符串连接到此字符串的结尾。  
-6.	boolean contentEquals(StringBuffer sb) 当且仅当字符串与指定的StringButter有相同顺序的字符时候返回真。  
-7.	static String copyValueOf(char[] data) 返回指定数组中表示该字符序列的 String。  
-8.	static String copyValueOf(char[] data, int offset, int count) 返回指定数组中表示该字符序列的 String。  
-9.	boolean endsWith(String suffix) 测试此字符串是否以指定的后缀结束。  
-10.	boolean equals(Object anObject) 将此字符串与指定的对象比较。  
-11.	boolean equalsIgnoreCase(String anotherString) 将此 String 与另一个 String 比较，不考虑大小写。  
-12.	byte[] getBytes() 使用平台的默认字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。  
-13.	byte[] getBytes(String charsetName) 使用指定的字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。  
-14.	void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) 将字符从此字符串复制到目标字符数组。  
-15.	int hashCode() 返回此字符串的哈希码。  
-16.	int indexOf(int ch) 返回指定字符在此字符串中第一次出现处的索引。  
-17.	int indexOf(int ch, int fromIndex) 返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。  
-18.	int indexOf(String str) 返回指定子字符串在此字符串中第一次出现处的索引。  
-19.	int indexOf(String str, int fromIndex) 返回指定子字符串在此字符串中第一次出现处的索引，从指定的索引开始。  
-20.	String intern() 返回字符串对象的规范化表示形式。  
-21.	int lastIndexOf(int ch) 返回指定字符在此字符串中最后一次出现处的索引。  
-22.	int lastIndexOf(int ch, int fromIndex) 返回指定字符在此字符串中最后一次出现处的索引，从指定的索引处开始进行反向搜索。  
-23.	int lastIndexOf(String str) 返回指定子字符串在此字符串中最右边出现处的索引。  
-24.	int lastIndexOf(String str, int fromIndex) 返回指定子字符串在此字符串中最后一次出现处的索引，从指定的索引开始反向搜索。  
-25.	int length() 返回此字符串的长度。  
+String 方法 更多详见 `[Java API文档]`(https://docs.oracle.com/javase/8/docs/api/index.html)  
+* char charAt(int index) 返回指定索引处的 char 值。  
+* int compareTo(Object o) 把这个字符串和另一个对象比较。  
+* int compareTo(String anotherString) 按字典顺序比较两个字符串。  
+*	int compareToIgnoreCase(String str) 按字典顺序比较两个字符串，不考虑大小写。  
+*	String concat(String str) 将指定字符串连接到此字符串的结尾。  
+*	boolean contentEquals(StringBuffer sb) 当且仅当字符串与指定的StringButter有相同顺序的字符时候返回真。  
+*	static String copyValueOf(char[] data) 返回指定数组中表示该字符序列的 String。  
+*	static String copyValueOf(char[] data, int offset, int count) 返回指定数组中表示该字符序列的 String。  
+*	boolean endsWith(String suffix) 测试此字符串是否以指定的后缀结束。  
+*	boolean equals(Object anObject) 将此字符串与指定的对象比较。  
+*	boolean equalsIgnoreCase(String anotherString) 将此 String 与另一个 String 比较，不考虑大小写。  
+*	byte[] getBytes() 使用平台的默认字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。  
+*	byte[] getBytes(String charsetName) 使用指定的字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。  
+*	void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) 将字符从此字符串复制到目标字符数组。  
+*	int hashCode() 返回此字符串的哈希码。  
+*	int indexOf(int ch) 返回指定字符在此字符串中第一次出现处的索引。  
+*	int indexOf(int ch, int fromIndex) 返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。  
+*	int indexOf(String str) 返回指定子字符串在此字符串中第一次出现处的索引。  
+*	int indexOf(String str, int fromIndex) 返回指定子字符串在此字符串中第一次出现处的索引，从指定的索引开始。  
+*	String intern() 返回字符串对象的规范化表示形式。  
+*	int lastIndexOf(int ch) 返回指定字符在此字符串中最后一次出现处的索引。  
+*	int lastIndexOf(int ch, int fromIndex) 返回指定字符在此字符串中最后一次出现处的索引，从指定的索引处开始进行反向搜索。  
+*	int lastIndexOf(String str) 返回指定子字符串在此字符串中最右边出现处的索引。  
+*	int lastIndexOf(String str, int fromIndex) 返回指定子字符串在此字符串中最后一次出现处的索引，从指定的索引开始反向搜索。  
+*	int length() 返回此字符串的长度。  
 *	boolean matches(String regex) 告知此字符串是否匹配给定的正则表达式。  
 * String[] split(String regex) 根据给定正则表达式的匹配拆分此字符串。  
 * String[] split(String regex, int limit) 根据匹配给定的正则表达式来拆分此字符串。  
