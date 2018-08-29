@@ -29,18 +29,18 @@ String 方法 更多详见[Java API文档](https://docs.oracle.com/javase/8/docs
 24.	int lastIndexOf(String str, int fromIndex) 返回指定子字符串在此字符串中最后一次出现处的索引，从指定的索引开始反向搜索。  
 25.	int length() 返回此字符串的长度。  
 26.	boolean matches(String regex) 告知此字符串是否匹配给定的正则表达式。  
-32.	String[] split(String regex) 根据给定正则表达式的匹配拆分此字符串。  
-33.	String[] split(String regex, int limit) 根据匹配给定的正则表达式来拆分此字符串。  
-34.	boolean startsWith(String prefix) 测试此字符串是否以指定的前缀开始。  
-35.	boolean startsWith(String prefix, int toffset) 测试此字符串从指定索引开始的子字符串是否以指定前缀开始。  
-36.	CharSequence subSequence(int beginIndex, int endIndex) 返回一个新的字符序列，它是此序列的一个子序列。    
-37.	String substring(int beginIndex) 返回一个新的字符串，它是此字符串的一个子字符串。  
-38.	String substring(int beginIndex, int endIndex) 返回一个新字符串，它是此字符串的一个子字符串。  
-39.	char[] toCharArray() 将此字符串转换为一个新的字符数组。  
-40.	String toLowerCase() 使用默认语言环境的规则将此 String 中的所有字符都转换为小写。  
-41.	String toLowerCase(Locale locale) 使用给定 Locale 的规则将此 String 中的所有字符都转换为小写。  
-42.	String toString() 返回此对象本身（它已经是一个字符串！）。  
-43.	String toUpperCase() 使用默认语言环境的规则将此 String 中的所有字符都转换为大写。  
-44.	String toUpperCase(Locale locale) 使用给定 Locale 的规则将此 String 中的所有字符都转换为大写。  
-45.	String trim() 返回字符串的副本，忽略前导空白和尾部空白。  
-46.	static String valueOf(primitive data type x) 返回给定data type类型x参数的字符串表示形式。
+*String[] split(String regex) 根据给定正则表达式的匹配拆分此字符串。  
+*String[] split(String regex, int limit) 根据匹配给定的正则表达式来拆分此字符串。  
+*boolean startsWith(String prefix) 测试此字符串是否以指定的前缀开始。  
+*boolean startsWith(String prefix, int toffset) 测试此字符串从指定索引开始的子字符串是否以指定前缀开始。  
+*CharSequence subSequence(int beginIndex, int endIndex) 返回一个新的字符序列，它是此序列的一个子序列。    
+*String substring(int beginIndex) 返回一个新的字符串，它是此字符串的一个子字符串。  
+*String substring(int beginIndex, int endIndex) 返回一个新字符串，它是此字符串的一个子字符串。  
+*char[] toCharArray() 将此字符串转换为一个新的字符数组。  
+*String toLowerCase() 使用默认语言环境的规则将此 String 中的所有字符都转换为小写。  
+*String toLowerCase(Locale locale) 使用给定 Locale 的规则将此 String 中的所有字符都转换为小写。  
+*String toString() 返回此对象本身（它已经是一个字符串！）。  
+*String toUpperCase() 使用默认语言环境的规则将此 String 中的所有字符都转换为大写。  
+*String toUpperCase(Locale locale) 使用给定 Locale 的规则将此 String 中的所有字符都转换为大写。  
+*String trim() 返回字符串的副本，忽略前导空白和尾部空白。  
+*static String valueOf(primitive data type x) 返回给定data type类型x参数的字符串表示形式。
