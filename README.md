@@ -2,7 +2,7 @@
 字符串的几种应用实现_Java  
 Java String类  
 字符串广泛应用在Java编程中，在Java中字符串属于对象，Java提供了String类来创建和操作字符串。  
-String 方法 更多详见 [`Java API文档`](https://docs.oracle.com/javase/8/docs/api/index.html)  
+String 方法 更多详见 [**Java API文档**](https://docs.oracle.com/javase/8/docs/api/index.html)  
 * char charAt(int index) 返回指定索引处的 char 值。  
 * int compareTo(Object o) 把这个字符串和另一个对象比较。  
 * int compareTo(String anotherString) 按字典顺序比较两个字符串。  
